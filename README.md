@@ -8,3 +8,15 @@
     > - git add -A
     > - git commit -m "<message>"
     > - git push -u origin <tên nhánh hiện tại>
+
+- Tạo môi trường ảo nếu chưa tạo
+
+  > python -m venv venv
+  > - window:
+  >      venv\Scripts\activate
+  > - linux:
+  >      source venv/bin/activate
+
+- Install các thư viện cần thiết
+  > pip ínstall -r requirements.txt
+

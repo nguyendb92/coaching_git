@@ -1,11 +1,11 @@
-#exrcise 1
+# exrcise 1
 x = 5
 x = float(x)
 
-#exrcise 2
+# exrcise 2
 x = 5.5
-x = int (x)
+x = int(x)
 
-#exrcise 3
+# exrcise 3
 x = 5
-x = complex (x)
+x = complex(x)

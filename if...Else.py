@@ -1,53 +1,54 @@
-#exercise 1
+# exercise 1
 from calendar import c
 from this import d
 
 
 a = 50
 b = 10
-if a >b:
-  print("Hello World")
+if a > b:
+    print("Hello World")
 
-#exercise 2
+# exercise 2
 a = 50
 b = 10
-if a !=b:
-  print("Hello World")
+if a != b:
+    print("Hello World")
 
-#exercise 3
+# exercise 3
 a = 50
 b = 10
-if a==b:
-  print("Yes")
+if a == b:
+    print("Yes")
 else:
 
-  print("No")
+    print("No")
 
-#exercise 4
+# exercise 4
 a = 50
 b = 10
-if a ==b:
-  print("1")
-elif a >b:
-  print("2")
+if a == b:
+    print("1")
+elif a > b:
+    print("2")
 else:
 
-  print("3")
+    print("3")
 
-#exercise 5
+# exercise 5
 if a == b and c == d:
-  print("Hello")
+    print("Hello")
 
-#exercise 6
+# exercise 6
 if a == b or c == d:
-  print("Hello")
+    print("Hello")
 
-#exercise 7
+# exercise 7
 if 5 > 2:
-  print("Five is greater than two!")
+    print("Five is greater than two!")
 
-#exercise 8
-if 5 > 2: print("Five is greater than two!")
+# exercise 8
+if 5 > 2:
+    print("Five is greater than two!")
 
-#exercise 9
+# exercise 9
 print("Yes") if 5 > 2 else print("No")

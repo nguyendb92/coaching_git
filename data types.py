@@ -1,36 +1,36 @@
-#exercise 1
+# exercise 1
 x = 5
-print(type(x))#int
+print(type(x))  # int
 
-#exercise 2
+# exercise 2
 x = "Hello World"
 print(type(x))
- #str
+# str
 
- #exercise 3
+# exercise 3
 x = 20.5
 print(type(x))
- #complex
+# complex
 
-#exercise 4
+# exercise 4
 x = ["apple", "banana", "cherry"]
 print(type(x))
- #list
+# list
 
-#exercise 5
+# exercise 5
 x = ("apple", "banana", "cherry")
 print(type(x))
- #tuple
+# tuple
 
-#exercise 6
-x = {"name" : "John", "age" : 36}
-print(type(x)) 
- #dict
+# exercise 6
+x = {"name": "John", "age": 36}
+print(type(x))
+# dict
 
-#exercise 7
+# exercise 7
 x = True
 print(type(x))
- #bool
+# bool
 
 # x = 5
 # print(type(x)) # in ra <class 'int'>

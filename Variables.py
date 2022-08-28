@@ -2,24 +2,24 @@
 carname = "Volvo"
 
 # exercise 2
-X = 50
+x = 50
 
 # exercise 3
-X = 5
-Y = 10
-print(X + Y)
+x = 5
+y = 10
+print(x + y)
 
 # exercise 4
-X = 5
-Y = 10
-Z = X + Y
-print(Z)
+x = 5
+y = 10
+z = x + y
+print(z)
 
 # exercise 5
-myFrist_name = "John"
+myfrist_name = "john"
 
 # exercise 6
-X = Y = Z = "Orange"
+x = y = z = "orange"
 
 # exercise 7
 def myfunc():

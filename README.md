@@ -18,5 +18,5 @@
   >      source venv/bin/activate
 
 - Install các thư viện cần thiết
-  > pip ínstall -r requirements.txt
+  > pip install -r requirements.txt
 

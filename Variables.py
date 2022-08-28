@@ -21,6 +21,7 @@ myfrist_name = "john"
 # exercise 6
 x = y = z = "orange"
 
+
 # exercise 7
 def myfunc():
     global x

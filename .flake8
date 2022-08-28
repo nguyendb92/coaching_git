@@ -60,6 +60,10 @@ exclude =
     .git,
     # python cache
     __pycache__,
+    venv,
+    .venv,
+    env,
+    .env,
     # pytest cache
     .pytest_cache,
     # mypy cache

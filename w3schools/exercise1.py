@@ -1,8 +1,5 @@
-# PYTHON Syntax
-
-#Insert the missing part of the code below to output "Hello World"
-print("hello wrold")
-"""This example misses indentations to be correct.
-Insert the missing indentation to make the code correct:"""
+print("Hello world")
+# this is exercise 1 in Python Syntanx
 if 5 > 2:
     print("Five is greater than two!")
+# exercise 2 in Python Syntanx

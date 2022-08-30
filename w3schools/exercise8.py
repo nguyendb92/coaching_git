@@ -1,26 +1,31 @@
-#PYTHON Lists
-
-#Print the second item in the fruits list.
+# exercise 1
 fruits = ["apple", "banana", "cherry"]
 print(fruits[1])
-#Change the value from "apple" to "kiwi", in the fruits list
+
+# exercise 2
 fruits = ["apple", "banana", "cherry"]
-fruits[1]="kiwi"
-#Use the append method to add "orange" to the fruits list
+fruits[0] = "kiwi"
+
+# exercise 3
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")
-#Use the insert method to add "lemon" as the second item in the fruits list.
+
+# exercise 4
 fruits = ["apple", "banana", "cherry"]
-fruits.insert(1,"lemon")
-#Use the remove method to remove "banana" from the fruits list.
+fruits.insert(1, "lemon")
+
+# exercise 5
 fruits = ["apple", "banana", "cherry"]
 fruits.remove("banana")
-#Use negative indexing to print the last item in the list.
+
+# exercise 6
 fruits = ["apple", "banana", "cherry"]
 print(fruits[-1])
-#Use a range of indexes to print the third, fourth, and fifth item in the list.
+
+# exercise 7
 fruits = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(fruits[2:5])
-#Use the correct syntax to print the number of items in the list.
+
+# exercise 8
 fruits = ["apple", "banana", "cherry"]
 print(len(fruits))

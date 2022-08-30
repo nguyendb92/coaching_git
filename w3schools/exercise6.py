@@ -1,15 +1,19 @@
-#PYTHON Booleans
+# exercise 1
+print(10 > 9)
+True
 
-#The statement below would print a Boolean value, which one?
-print(10 > 9)# in ra "True"
-print(10 == 9)# in ra "False"
-print(10 < 9)# in ra "False"
-print(bool("abc"))# in ra "True"
-#Some values ​​will return false
-print(bool(False))
-print(bool(None))
+# exercise 2
+print(10 == 9)
+False
+
+# exercise 3
+print(10 < 9)
+False
+
+# exercise 4
+print(bool("abc"))
+True
+
+# exercise 5
 print(bool(0))
-print(bool(""))
-print(bool(()))
-print(bool([]))
-print(bool({}))
+False

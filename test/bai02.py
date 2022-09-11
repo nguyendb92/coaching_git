@@ -1,0 +1,5 @@
+a = input()
+list = a.split(",")
+tuple = tuple(list)
+print('List : ',list)
+print('Tuple : ',tuple)

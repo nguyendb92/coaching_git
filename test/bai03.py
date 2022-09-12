@@ -1,3 +1,3 @@
-color_list = ["Red", "Green", "White", "Black"]
-print(color_list[0])
-print(color_list[-1])  
+Color_List = ["Red", "Green", "White", "Black"]
+print(Color_List[0])
+print(Color_List[-1])  

@@ -4,4 +4,4 @@ b = False
 for i in n:
     if a == i:
         b = True
-print(b)  
+print(b)

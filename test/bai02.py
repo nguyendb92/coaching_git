@@ -1,5 +1,5 @@
 a = input()
 b = a.split(",")
 tuple = tuple(b)
-print('List : ', b)
-print('Tuple : ', tuple)
+print(b)
+print(tuple)

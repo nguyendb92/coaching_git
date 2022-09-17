@@ -1,7 +1,8 @@
-n = [1, 5, 8, 3]
+x = input()
+y = x.split(",")
 a = int(input())
 b = False
-for i in n:
+for i in y:
     if a == i:
         b = True
 print(b)

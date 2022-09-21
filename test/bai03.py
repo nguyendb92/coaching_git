@@ -1,5 +1,6 @@
-Color_List = ["Red", "Green", "White", "Black"]
+def vitri(a):
+    return a[0], a[-1]
 
-print(Color_List[0])
 
-print(Color_List[-1])
+x = [j for j in input().split(',')]
+print(vitri(x))

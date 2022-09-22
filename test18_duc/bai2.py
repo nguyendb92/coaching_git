@@ -6,6 +6,3 @@ def list(number):
 
 
 print(sum(()))
-
-Lst = [int(j) for j in input().split()]
-print(sum(Lst))

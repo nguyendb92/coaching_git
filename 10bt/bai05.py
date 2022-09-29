@@ -1,9 +1,17 @@
-def gt(n):
+def factorial(n):
+    """
+    # calculate the factorial of a number
+    Args:
+        input_data(int):
+    Returns:
+        _type_:int
+    """
     if n == 1:
         return 1
     else:
-        return n * gt(n - 1)
+        return n * factorial(n - 1)
 
 
-x = int(input())
-print(gt(x))
+if __name__ == "__main__":
+    x = int(input())
+    print(factorial(x))

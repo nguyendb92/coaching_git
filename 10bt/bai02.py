@@ -1,9 +1,17 @@
-def Sum(numbers):
+def total_list(number_list):
+    """
+    # sum all the numbers in a list
+    Args:
+        input_data(list):
+    Returns:
+        _type_: int
+    """
     y = 0
-    for x in numbers:
+    for x in number_list:
         y += x
     return y
 
 
-Lst = [int(j) for j in input().split()]
-print(Sum(Lst))
+if __name__ == "__main__":
+    lst = [int(j) for j in input().split()]
+    print(total_list(lst))

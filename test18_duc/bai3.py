@@ -1,9 +1,9 @@
-def multiply(number):
+def multiply(*lst):
     res = 1
-    for x in number:
+    for x in lst:
         res *= x
     return res
 
 
-Lst = [int(j) for j in input().split()]
-print(multiply(Lst))
+if __name__ == '__main__':
+    print(multiply(12, 24, 45, 67, 67))

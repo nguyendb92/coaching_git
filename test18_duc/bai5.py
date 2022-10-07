@@ -5,5 +5,5 @@ def factorinal(x):
     return res
 
 
-x = int(input())
-print(factorinal(x))
+if __name__ == '__main__':
+    print(factorinal(12))

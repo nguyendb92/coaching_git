@@ -1,2 +1,2 @@
-list_3_number = [n for n in range(0, 1000) if "3" in str(n)]
+list_3_number = [n for n in range(1, 1001) if "3" in str(n)]
 print(list_3_number)

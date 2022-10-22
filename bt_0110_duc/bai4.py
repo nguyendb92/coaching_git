@@ -2,43 +2,58 @@ import random
 
 
 class Weapon:
-    def __init__(self, damage, attack_rating):
+    def __init__(self, name, damage, attack_rating):
+        self.name = name
         self.damage = damage
         self.attack_rating = attack_rating
 
-
-class Player(Weapon):
-    HP = 1000
-    # def __init__(self, damage, attack_rating):
-    #     super().__init__(damage, attack_rating)
-
-    def __init__(self, weapon):
-        self.damage = weapon.damage
-        self.attack_rating = weapon.attack_rating
+    def __str__(self):
+        return self.name
 
 
-sword = Weapon(16, 2)
-bow = Weapon(14, 2)
-gun = Weapon(20, 2)
+class Fighter:
+    def __init__(self, name, hp, w):
+        self.name = name
+        self.HP = hp
+        self.weapon = w
+
+    def __str__(self):
+        return f"{self.name}: HP {self.HP} / Weapon: {self.weapon}"
+
+    def attack(self, someone):
+        someone.HP -= self.weapon.damage * self.weapon.attack_rating
+
+    def get_random_weapon(self, w):
+        self.weapon = w
+        # phat trien them de 2 dau si co the lay weapon luc runtime
+
+
+sword = Weapon("kiem", 70, 3)
+bow = Weapon("Cung", 50, 2)
+gun = Weapon("Sung", 100, 5)
 list_weapon = [sword, bow, gun]
 
-player1 = Player(random.choice(list_weapon))
-player2 = Player(random.choice(list_weapon))
+duc = Fighter("Duc", 2000, random.choice(list_weapon))
+viet = Fighter("Viet", 2000, random.choice(list_weapon))
+print(duc)
+print(viet)
 
-while player1.HP > 0 and player2.HP > 0:
-    player1.HP -= player2.damage * player2.attack_rating
-    player2.HP -= player1.damage * player1.attack_rating
+players = [duc, viet]
+first = random.choice(players)
+second = [remain for remain in players if remain != first][0]
 
+while first.HP > 0 and second.HP > 0:
+    first.attack(second)
+    second.attack(first)
 
-if player1.HP == 0:
-    print("Player2 win")
-    print(player2.HP)
-    print(player1.HP)
+print(first, second)
+winner = None
+if first.HP > second.HP:
+    winner = first
+elif first.HP < second.HP:
+    winner = second
 
-elif player2.HP == 0:
-    print("Player1 win")
-    print(player2.HP)
-    print(player1.HP)
-
+if winner:
+    print("Winner: ", winner)
 else:
-    print("Tie")
+    print("HOA")
